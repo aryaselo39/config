@@ -71,7 +71,7 @@ proxies:
     short-id: c76cc99e                          #custom short-id
 
 #=============3=================（vless-ws-tls node）
-- name: vless-ws-tls node                           #Customizable name
+- name: vless-ws-tls cakap                           #Customizable name
   type: vless
   server: www.cakap.com                          #resolved domain name or preferred domain name IP
   port: 443                                      #custom port
@@ -86,19 +86,19 @@ proxies:
       Host: cf.vpnvless.cc.cd                      #host domain name, consistent with the above servername
 
 #=============4=================（vless-ws node）
-- name: vless-ws node                               #Customizable name
+- name: vless-ws2 node                               #Customizable name
   type: vless
-  server: for.forcedparadise.space                        #resolved domain name or preferred domain name IP
-  port: 103                                       #custom port
-  uuid: fc05dc52-2be7-4667-92dd-8b536535395c       #custom uuid
+  server: xray.xixixixi.bond                        #resolved domain name or preferred domain name IP
+  port: 443                                       #custom port
+  uuid: 3b01a777-55e7-49f6-8637-d94ee69607c6       #custom uuid
   udp: true
   tls: false
   network: ws
-  servername: for.forcedparadise.space                   #sni domain name, consistent with the following host
+  servername: xray.xixixixi.bond                   #sni domain name, consistent with the following host
   ws-opts:
-    path: "/?ed=2048"                              #" "inner custom path
+    path: "/139.59.102.170=443"                              #" "inner custom path
     headers:
-      Host: for.forcedparadise.space                      #host domain name, consistent with the above servername
+      Host: xray.xixixixi.bond                      #host domain name, consistent with the above servername
 
 #===============5===============（vmess-ws-tls node）
 - name: vmess-ws-tls node                           #Customizable name
