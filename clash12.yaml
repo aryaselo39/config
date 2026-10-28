@@ -71,7 +71,7 @@ proxies:
     short-id: c76cc99e                          #custom short-id
 
 #=============3=================（vless-ws-tls node）
-- name: vless-ws-tls cakap                           #Customizable name
+- name: vless-ws-tls node                           #Customizable name
   type: vless
   server: www.cakap.com                          #resolved domain name or preferred domain name IP
   port: 443                                      #custom port
@@ -86,7 +86,7 @@ proxies:
       Host: cf.vpnvless.cc.cd                      #host domain name, consistent with the above servername
 
 #=============4=================（vless-ws node）
-- name: vless-ws2 node                               #Customizable name
+- name: vless-ws node                               #Customizable name
   type: vless
   server: xray.xixixixi.bond                        #resolved domain name or preferred domain name IP
   port: 443                                       #custom port
