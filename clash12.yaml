@@ -73,17 +73,17 @@ proxies:
 #=============3=================（vless-ws-tls node）
 - name: vless-ws-tls node                           #Customizable name
   type: vless
-  server: 104.31.16.60                          #resolved domain name or preferred domain name IP
-  port: 2083                                      #custom port
-  uuid: 94ad16a0-1783-4b76-b04b-ac895c862c3d       #custom uuid
+  server: www.cakap.com                          #resolved domain name or preferred domain name IP
+  port: 443                                      #custom port
+  uuid: 3560142c-248f-4a41-848b-b83bf2ea4f2a       #custom uuid
   udp: true
   tls: true
   network: ws
-  servername: for.forcedparadise.space                    #sni domain name, consistent with the following host
+  servername: cf.vpnvless.cc.cd                    #sni domain name, consistent with the following host
   ws-opts:
-    path: "/?ed=2048"                              #" "inner custom path
+    path: "/3560142c-248f-4a41-848b-b83bf2ea4f2a?ed=2048"                              #" "inner custom path
     headers:
-      Host: for.forcedparadise.space                      #host domain name, consistent with the above servername
+      Host: cf.vpnvless.cc.cd                      #host domain name, consistent with the above servername
 
 #=============4=================（vless-ws node）
 - name: vless-ws node                               #Customizable name
